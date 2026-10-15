@@ -1,0 +1,6 @@
+{
+  "name": "Amico EuroVicino - Annunci e Incontri Locali",
+  "description": "Piattaforma moderna di annunci locali, incontri per adulti verificati, massaggi e centri benessere in Italia con ricerca per mappa e raggio chilometrico.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

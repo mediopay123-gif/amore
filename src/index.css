@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-primary: #193C32;
+    --brand-hover: #244D40;
+    --brand-soft: #E8EFEA;
+    --page-background: #F8F8F5;
+    --surface: #FFFFFF;
+    --text-primary: #202522;
+    --text-secondary: #777B76;
+    --border: #E5E7E1;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #F8F8F5;
+    color: #202522;
+  }
+  
+  code, kbd, samp, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Subtle minimal scrollbar for clean luxury aesthetic */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F8F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8DBD4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B9BEB5;
+}
